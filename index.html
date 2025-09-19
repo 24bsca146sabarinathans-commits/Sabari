@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #f4f4f9;
+      color: #333;
+    }
+
+    header {
+      background: #222;
+      color: #fff;
+      padding: 20px;
+      font-size: 24px;
+    }
+
+    .hello {
+      margin-top: 20px;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .tagline {
+      margin: 10px 0;
+      font-size: 18px;
+      color: #555;
+    }
+
+    .btn {
+      display: inline-block;
+      margin: 15px 0;
+      padding: 10px 20px;
+      background: #007bff;
+      color: #fff;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    h2 {
+      margin: 30px 0 15px;
+      font-size: 22px;
+    }
+
+    .about img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-top: 10px;
+      border: 3px solid #007bff;
+    }
+
+    .about p {
+      margin: 15px auto;
+      max-width: 600px;
+    }
+
+    .projects {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin: 20px auto;
+      max-width: 900px;
+    }
+
+    .project-box {
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0px 2px 6px rgba(0,0,0,0.2);
+      width: 250px;
+      font-weight: bold;
+    }
+
+    .contact form {
+      max-width: 400px;
+      margin: 20px auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0px 2px 6px rgba(0,0,0,0.2);
+      text-align: left;
+    }
+
+    .contact label {
+      display: block;
+      margin: 10px 0 5px;
+    }
+
+    .contact input, .contact textarea {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+
+    .contact button {
+      margin-top: 10px;
+      padding: 10px;
+      background: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      width: 100%;
+      font-size: 16px;
+    }
+
+    footer {
+      margin-top: 30px;
+      padding: 15px;
+      background: #222;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <header>My Portfolio</header>
+
+  <div class="hello">Hello 👋</div>
+  <div class="tagline">I am Sabarinathan, a passionate developer</div>
+  <a href="#projects" class="btn">View My Work</a>
+
+  <h2>About Me</h2>
+  <div class="about">
+    <img src="https://i.ibb.co/Zzdj7pHf/profile.jpg" alt="Profile Photo">
+    <p>I am a Bachelor of Computer Applications student with a strong interest in software development and technology. I love building projects that solve real-world problems.</p>
+  </div>
+
+  <h2 id="projects">Projects</h2>
+  <div class="projects">
+    <div class="project-box">Online Voting System</div>
+    <div class="project-box">My Portfolio</div>
+    <div class="project-box">Stress Management Sensor</div>
+  </div>
+
+  <h2>Contact Me</h2>
+  <div class="contact">
+    <form>
+      <label>Name:</label>
+      <input type="text" value="Sabarinathan" readonly>
+
+      <label>Email:</label>
+      <input type="email" value="24bsca146sabarinathans@skacas.ac.in" readonly>
+
+      <label>Phone Number:</label>
+      <input type="text" value="6379553962" readonly>
+
+      <label>Message:</label>
+      <textarea placeholder="Enter your message"></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+  </div>
+
+  <footer>
+    © 2025 Sabarinathan | All Rights Reserved
+  </footer>
+</body>
+</html>
